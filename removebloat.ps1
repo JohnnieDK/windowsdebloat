@@ -3,7 +3,7 @@
 # TODO: some of these have changed names or is no longer being installed
 # NOTE: These can be reinstalled from the MS store.
 
-$Apps = @("Cortana", "OfficeHub", "Messaging", "Solitaire", "3DBuilder", "Bing", "ConnectivityStore", "Getstarted", "Messaging",  "Skype", "Xbox", "Zune", "BioEnrollment", "ContactSupport", "windowsmaps", "Twitter", "NetworkSpeedTest", "Duolingo", "Pandora", "AdobePhotoshopExpress", "windowsphone", "Microsoft.YourPhone", "windowscommunicationsapps", "onenote", "people")
+$Apps = @("Cortana", "OfficeHub", "Messaging", "Solitaire", "3DBuilder", "Bing", "ConnectivityStore", "Getstarted", "Messaging",  "Skype", "Xbox", "Zune", "BioEnrollment", "ContactSupport", "windowsmaps", "Twitter", "NetworkSpeedTest", "Duolingo", "Pandora", "AdobePhotoshopExpress", "windowsphone", "Microsoft.YourPhone", "windowscommunicationsapps", "onenote", "people", "XboxGamingOverlay")
 
 ForEach($App in $Apps) {
     $AppPattern = "*$App*"
